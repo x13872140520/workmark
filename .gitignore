@@ -1,0 +1,13 @@
+.idea
+.idea/
+node_modules
+node_modules/
+.vscode
+.vscode/
+.DS_Store
+
+.angular
+.husky
+.zip
+.rar
+package-lock.json

@@ -1,0 +1,31 @@
+@import "../../css/colors.css";
+
+.green-flag {
+    /* width: 6rem;
+    height: 2.7rem; */
+    padding: 0.375rem;
+    border-radius: 0.25rem;
+    user-select: none;
+    user-drag: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3D8AFF;
+    width: 80px;
+    height: 31px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.green-flag:hover {
+    /* background-color: $motion-light-transparent; */
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.green-flag.is-active {
+    background-color: $motion-transparent;
+}

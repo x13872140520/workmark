@@ -1,0 +1,10 @@
+@import "../../css/colors.css";
+@import "../../css/units.css";
+
+.cas-cader{
+    position:absolute;
+    top:0;
+    right:-100px;
+    width: 100px;
+    background: $ui-white;
+}

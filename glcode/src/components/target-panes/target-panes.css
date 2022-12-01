@@ -1,0 +1,158 @@
+@import "../../css/colors.css";
+@import "../../css/units.css";
+
+.fade {
+    transition: opacity 3.15s linear !important;
+
+}
+
+.fade:not(.show) {
+    opacity: 0 !important;
+}
+
+.costume-tab-modal {
+    animation: zoom 0.5s linear 2s initial alternate;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.1)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.expanded {
+    margin-right: 240px;
+}
+
+.force-hidden {
+    width: 180px !important
+}
+
+.click-away-div {
+    background: transparent;
+    position: fixed;
+    left: 0px;
+    top: 48px;
+    height: calc(100% - 54px);
+}
+
+.target-pane {
+    /* Makes columns for the sprite library selector + and the stage selector */
+    flex-shrink: 0;
+    width: 180px;
+    position: relative;
+    /* overflow-y: auto; */
+
+}
+
+.target-pane::-webkit-scrollbar {
+    width: 0;
+}
+
+.costume-tab-modal {
+    position: absolute;
+    left: 180px;
+    top: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.3);
+    width: 240px;
+    height: calc(100vh - 48px);
+}
+
+.add-btn {
+    text-align: center;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.plus-btn {
+    border-radius: 4px;
+    width: 117px;
+    height: 32px;
+    background: $motion-btn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.plus-btn-icon,
+.close-btn-icon {
+    fill: $motion-primary
+}
+
+.stage-selector-wrapper {
+    display: flex;
+    flex-basis: 72px;
+    flex-shrink: 0;
+    /* display: none; */
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*
+#StageSelector .header {
+    display: none;
+} */
+
+/* [dir="ltr"] .stage-selector-wrapper {
+    margin-left: calc($space / 2);
+}
+
+[dir="rtl"] .stage-selector-wrapper {
+    margin-right: calc($space / 2);
+} */
+
+/* 整个滚动条 */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+/* 滚动条上的按钮 (上下箭头). */
+::-webkit-scrollbar-button {
+    /* background-color: #2196F3;
+    border-radius: 50px;
+    height: 10px;
+    width: 10px; */
+}
+
+/* 滚动条上的滚动滑块. */
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+/*  滚动条轨道. */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 142, 255, 1);
+    box-shadow: inset 0 0 6px rgba(0, 142, 255, 1, 1);
+    background-color: #F5F5F5;
+}
+
+/* 滚动条没有滑块的轨道部分 */
+::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+}
+
+/* 当同时有垂直滚动条和水平滚动条时交汇的部分. */
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* 某些元素的corner部分的部分样式(例:textarea的可拖动按钮). */
+::-webkit-resizer {}

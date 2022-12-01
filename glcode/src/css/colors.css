@@ -1,0 +1,127 @@
+ /*声明一个全局 CSS 变量*/
+ :root {
+   /* 顔色属性名*/
+   --uiPrimary: hsla(15, 100%, 95.3%, 1);
+   --uiSecondary: hsla(15, 100%, 95.3%, 1);
+   --uiTertiary: hsla(0, 100%, 50%, 1);
+
+   --uiModalTextPrimary: hsla(25, 100%, 31%, 0.9);
+   --uiModalTextSecondary: hsla(25, 17.9%, 54.1%, 0.9);
+   --uiModalTagBackground: hsla(0, 100%, 100%, 1);
+   /* #FFFFFF */
+   --uiModalContentBackground: hsla(0, 100%, 99.4%, 1);
+   /* #FFFCFC */
+   --uiModalItemBackground: hsla(21.8, 100%, 95.7%, 1);
+   /* #FFF1E9 */
+   --uiModal3in1: rgba(255, 237, 231, 0.7);
+   /* #FFF1E9 */
+   --menuBackground: hsla(15, 100%, 95.3%, 1);
+   --uiBlackTransparent: hsla(0, 0%, 0%, 0.15);
+   ;
+
+   --motionPrimary: hsla(14, 99%, 62.4%, 1);
+   /*#FE6D40*/
+   --motionTertiary: #3373CC;
+   --motionTransparent: hsla(215, 100%, 65%, 0.35);
+   --motionLightTransparent: hsla(215, 100%, 65%, 0.15);
+   --motionBtn: #FFC8B6;
+   --motionSecondary: rgb(255, 221, 210, 0.84);
+   ;
+
+   --uiModalOverlay: hsla(215, 100%, 65%, 0.9);
+   /* 90% transparent version of motion-primary */
+   --textPrimary: hsla(225, 15%, 40%, 1);
+   /* #575E75 */
+   --textPrimaryTransparent: hsla(225, 15%, 40%, 0.75);
+ }
+
+ $ui-primary: var(--uiPrimary);
+ /* hsla(215, 100%, 95%, 1); #E5F0FF ,	hsl(15,100%,95.3%) #FFFCFC*/
+ $ui-secondary: var(--uiPrimary);
+ /*hsla(215, 75%, 95%, 1) #E9F1FC ,hsl(15,100%,95.3%) #FFEDE7 */
+ $ui-tertiary: var(--uiPrimary);
+ /*hsla(215, 50%, 90%, 1) #D9E3F2 , 	hsl(0,100%,50%)  red*/
+
+ $ui-modal-overlay: hsla(215, 100%, 65%, 0.9);
+ /* 90% transparent version of motion-primary */
+ $ui-modal-text-primary: var(--uiModalTextPrimary);
+ /* custom modal ui */
+ $ui-modal-text-secondary: var(--uiModalTextSecondary);
+ /* custom modal ui */
+ $ui-modal-tag-background: var(--uiModalTagBackground);
+ /* custom modal ui */
+ $ui-modal-content-background: var(--uiModalContentBackground);
+ /* custom modal ui */
+ $ui-modal-item-background: var(--uiModalItemBackground);
+ /* custom modal ui */
+ $ui-modal-3in1: var(--uiModal3in1);
+ /* custom modal ui */
+ $menu-background: var(--menuBackground);
+ /* custom modal ui */
+
+ $ui-white: hsla(0, 100%, 100%, 1);
+ /* #FFFFFF */
+ $ui-white-dim: hsla(0, 100%, 100%, 0.75);
+ /* 25% transparent version of ui-white */
+ $ui-white-transparent: hsla(0, 100%, 100%, 0.25);
+ /* 25% transparent version of ui-white */
+ $ui-transparent: hsla(0, 100%, 100%, 0);
+ /* 25% transparent version of ui-white */
+
+ $ui-black-transparent: var(--uiBlackTransparent);
+ /* 15% transparent version of black */
+
+ $text-primary: hsla(225, 15%, 40%, 1);
+ /* #575E75 */
+ $text-primary-transparent: hsla(225, 15%, 40%, 0.75);
+
+ $motion-primary: var(--motionPrimary);
+ /* #4C97FF */
+ $motion-tertiary: var(--motionTertiary);
+ /* #3373CC */
+ $motion-transparent: var(--motionTransparent);
+ /* 35% transparent version of motion-primary */
+ $motion-light-transparent: var(--motionLightTransparent);
+ /* 15% transparent version of motion-primary */
+ $motion-btn: var(--motionBtn);
+ $motion-secondary: var(--motionSecondary);
+
+ $red-primary: hsla(20, 100%, 55%, 1);
+ /* #FF661A */
+ $red-tertiary: hsla(20, 100%, 45%, 1);
+ /* #E64D00 */
+
+ $sound-primary: hsla(300, 53%, 60%, 1);
+ /* #CF63CF */
+ $sound-tertiary: hsla(300, 48%, 50%, 1);
+ /* #BD42BD */
+
+ $control-primary: hsla(38, 100%, 55%, 1);
+ /* #FFAB19 */
+
+ $data-primary: hsla(30, 100%, 55%, 1);
+ /* #FF8C1A */
+
+ $pen-primary: hsla(39deg 100% 50%);
+ /* #0FBD8C */
+ $pen-transparent: hsla(163, 85%, 40%, 0.25);
+ /* #0FBD8C */
+
+ $error-primary: hsla(30, 100%, 55%, 1);
+ /* #FF8C1A */
+ $error-light: hsla(30, 100%, 70%, 1);
+ /* #FFB366 */
+ $error-transparent: hsla(30, 100%, 55%, 0.25);
+ /* #FF8C1A */
+
+ $extensions-primary: hsla(163, 85%, 40%, 1);
+ /* #0FBD8C */
+ $extensions-tertiary: hsla(163, 85%, 30%, 1);
+ /* #0B8E69 */
+ $extensions-transparent: hsla(163, 85%, 40%, 0.35);
+ /* 35% transparent version of extensions-primary */
+ $extensions-light: hsla(163, 57%, 85%, 1);
+ /* opaque version of extensions-transparent, on white bg */
+
+ $drop-highlight: hsla(215, 100%, 77%, 1);
+ /* lighter than motion-primary */

@@ -1,0 +1,22 @@
+@import "../../css/colors.css";
+
+.undo {
+    width: 36px;
+    height: 36px;
+    padding: 0.375rem;
+    border-radius: 0.25rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* .undo:hover {
+    background-color: $motion-light-transparent;
+} */
+
+.undo {
+    opacity: 0.5;
+}
+
+.undo.is-active {
+    opacity: 1;
+}

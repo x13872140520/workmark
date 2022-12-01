@@ -1,0 +1,161 @@
+@import "../../src/css/colors.css";
+
+.scratchCategoryItemBubble,
+.scratchCategoryItemIcon {
+  width: 24px !important;
+  height: 24px !important;
+  /* border-radius:50px!important;  */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* g[data-id="motion_movesteps"] path{
+    fill: red;
+ }  */
+.blocklyFlyoutBackground {
+  transform: scale(0.625);
+}
+
+#progress-notap {
+  /* 这是一个Material ui 的progress的Loading层， 因为同时跟MUI的dialog存在，
+   他们zindex一样，就只能看见dialog看不见loading，将loading提高zindex为1301 */
+  z-index: 1301
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(15deg, #f14612, #ff9471);
+  /* background: linear-gradient(15deg,#13547a,#80d0c7);  */
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.loader div {
+  border-width: 5px;
+  border-style: solid;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  animation: spin 2s ease infinite;
+}
+
+.loader div:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  left: 70px;
+  top: 70px;
+}
+
+.loader div:nth-child(2) {
+  width: 70px;
+  height: 70px;
+  left: 60px;
+  top: 60px;
+  animation-delay: 0.1s;
+}
+
+.loader div:nth-child(3) {
+  width: 90px;
+  height: 90px;
+  left: 50px;
+  top: 50px;
+  animation-delay: 0.2s;
+}
+
+.loader div:nth-child(4) {
+  width: 110px;
+  height: 110px;
+  left: 40px;
+  top: 40px;
+  animation-delay: 0.3s;
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.Popover-below {
+  z-index: 1400;
+}
+
+.blocklyFlyout {
+  /* box-sizing: content-box; */
+  /* box-shadow: rgba(0, 73, 169, 0.15) 5px 4px 12px 0px, rgb(193, 193, 193) 0px 0px 0px 0px; */
+  z-index: 1;
+}
+
+.blocklyFlyout:hover {
+  overflow: visible;
+}
+
+.blocklyFlyout:hover .blocklyWorkspace {
+  clip-path: none;
+}
+
+.MuiCollapse-entered {
+  flex-shrink: 0;
+}
+
+.react-draggable {
+  z-index: 99;
+}
+
+#player-container-id {
+  width: 100%;
+  height: 100%;
+  min-height: 256px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.current-tree-item {
+  color: hsla(25, 100%, 31%, 0.9);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.current-tree-item:hover {
+  background: none;
+}
+
+.libraryItemContext {
+  height: 70px;
+  width: 92px;
+  position: relative;
+}
+
+.libraryItemContext .react-contextmenu {
+  position: absolute !important;
+  left: 50px !important;
+  top: 50px !important;
+}

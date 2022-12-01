@@ -1,0 +1,10 @@
+/* .ReactModal__Overlay--after-open {
+    opacity: 1;
+    transition: opacity 200ms ease-in-out;
+  }
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+  } */
+.Popover-below {
+  z-index: 1400;
+}

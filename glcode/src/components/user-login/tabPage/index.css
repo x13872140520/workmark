@@ -1,0 +1,44 @@
+li {
+
+  list-style: none;
+}
+
+.tabHome {
+
+  width: 350px !important;
+  height: 300px !important;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  list-style: none;
+}
+
+.tabUl {
+  line-height: 50px;
+  padding: 0 !important;
+  color: #1e1e1e;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.colorser {
+  color: rgb(255, 120, 41) !important;
+  position: relative;
+}
+
+.pchec {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  color: black;
+  font-weight: bold;
+
+}

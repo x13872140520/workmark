@@ -1,0 +1,55 @@
+@import "../../css/units.css";
+@import "../../css/colors.css";
+
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+    /* border: 1px solid $ui-black-transparent; */
+    background: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.85rem;
+    height:100%;
+}
+
+[dir="ltr"] .wrapper {
+    border-top-right-radius: $space;
+    border-bottom-right-radius: $space;
+}
+
+[dir="rtl"] .wrapper {
+    border-top-left-radius: $space;
+    border-bottom-left-radius: $space;
+}
+.modal-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.close-btn{
+    position:absolute;
+    right:20px;
+    top:20px;
+    cursor: pointer;
+}
+.detail-area {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: visible;
+    background:#fff;
+    width: calc(100% - 100px);
+    height: calc(100% - 40px);
+    max-width: 1448px;
+    min-width: 996px;
+    max-height: 908px;
+    min-height: 580px;
+    position:relative;
+}
+
+/* [dir="ltr"] .detail-area {
+   border-left: 1px solid $ui-black-transparent;
+}
+
+[dir="rtl"] .detail-area {
+    border-right: 1px solid $ui-black-transparent;
+} */

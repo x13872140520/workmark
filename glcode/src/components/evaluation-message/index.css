@@ -1,0 +1,132 @@
+/* 修改css */
+:global(.MuiDialog-paperWidthSm){
+
+padding:15px;
+max-width: 1500px !important;
+
+}
+:global(.MuiDialog-paperWidthSm){
+
+padding:15px;
+max-width: 1500px !important;
+
+}
+
+
+
+.imgs{
+
+width: 24px;
+height: 24px;
+
+}
+.dighomefirst{
+display:flex;
+
+
+}
+
+ .dighomefirst   h2 {
+
+line-height:60px;
+
+}
+.Ratin:nth-child(1){
+margin-top:20px;
+
+}
+.Ratin{
+
+display: flex;
+}
+.Ratinp{
+width: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:30px;
+line-height: 16px;
+
+/* 二级 */
+
+color: #777777;
+
+}
+.boxfle{
+display: flex;
+
+}
+.dobs{
+margin-left: 40px;
+margin-bottom: 20px;
+}
+.dobs h2{
+margin-bottom: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+/* 一级 */
+
+color: #333333;
+
+}
+.smallBox{
+width: 424px;
+height: 204px;
+left: 280px;
+top: 188px;
+
+/* 主色 */
+box-sizing: border-box;
+border: 1px solid #F65335;
+border-radius: 4px;
+}
+.smallBoxfirst{
+width: 100%;
+height: 32px;
+line-height: 32px;
+
+/* 主色 */
+
+background: #F65335;
+}
+.ditext{
+width: 100%;
+
+}
+
+:global(.MuiOutlinedInput-input){
+
+height: 133px;
+}
+
+.Action{
+
+width: 100%;
+display: flex;
+ justify-content:space-between;
+}
+.Actionflex{
+
+display: flex;
+}
+.Actionflex p{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 40px;
+
+/* 一级 */
+
+color: #333333;
+
+}

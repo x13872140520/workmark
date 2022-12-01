@@ -1,0 +1,12 @@
+.searchIcon{
+
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+background-color: red;
+    position: relative;
+    cursor: pointer;
+    line-height: 28px;
+    text-align: center;
+    transition: all .3s ease
+}

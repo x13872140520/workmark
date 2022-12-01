@@ -1,0 +1,13 @@
+.HomeRe{
+
+   width:400px!important;
+    height: 400px !important;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+list-style: none;
+}

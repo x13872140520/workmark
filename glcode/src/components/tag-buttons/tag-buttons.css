@@ -1,0 +1,34 @@
+@import "../../css/colors.css";
+@import "../../css/units.css";
+
+.tag-button {
+    padding: .625rem 1rem;
+    background: $ui-modal-tag-background;
+    border-radius: 1.375rem;
+    color: $ui-modal-text-secondary;
+    /* height: $library-filter-bar-height; */
+    display:flex;
+    justify-content: center;
+    position:relative;
+    height:48px;
+    flex-shrink: 0;
+}
+
+.tag-button-icon {
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+.active {
+    color:$motion-primary;
+}
+.active:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 7.5px solid $motion-primary;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,34 @@
+.ulHome {
+
+    max-width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ulHome li {
+
+    margin: 0 20px;
+
+}
+
+.SSnackbar-root-11 {
+
+    background-color: none !important;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.close-btn-icon {
+    fill: #cccccc;
+}
+
+.close-btn-icon:hover {
+    fill: #9e9e9e;
+}
